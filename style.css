@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:helvetica ;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+body{
+    background-color: #90e0ef;
+}
+header{
+    width: 100%;
+    height: 40px;
+    background-color: #52b788;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+.menuBar ul li {
+    display: inline-block;
+
+}
+.menuBar ul li a {
+    margin: 0 10px;
+ 
+    text-transform: capitalize;
+
+}
