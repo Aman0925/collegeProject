@@ -9,7 +9,8 @@
 
 }
 body{
-    background-color: #90e0ef;
+    background-color: #13c8e8;
+    overflow: hidden;
 }
 header{
     width: 100%;
@@ -21,13 +22,85 @@ header{
     padding: 15px;
 
 }
+.logo{
+    color: rgb(255, 255, 0);
+    font-size: 35px;
+    font-weight: bold;
+}
+.humburger{
+    display: none;
+
+}
 .menuBar ul li {
     display: inline-block;
 
 }
 .menuBar ul li a {
     margin: 0 10px;
- 
     text-transform: capitalize;
+    transition:  0.8s;
+    display: block;
 
+
+}
+.menuBar ul li a:hover{
+color: #fff;
+transform: scale(1.01);
+}
+
+
+
+/* add a media query  */
+
+@media(max-width:420px){
+    header{
+        padding: 0 10px;
+
+    }
+    .humburger{
+        display: block;
+        cursor: pointer;
+
+    }
+    .humburger i{
+        color: #fff;
+        font-size: 20px;
+
+
+    }
+    .menuBar.menuBar.active{
+        height: 400px;
+
+    }
+    .menuBar{
+        position: absolute;
+        top: 40px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: rgba(255, 0, 0, 0.402);
+        transition: 0.5s;
+        height:0;
+        overflow: hidden;
+        z-index: 1000;
+
+
+
+    }
+    .menuBar ul {
+        display: block;
+        width: fit-content;
+        margin: 40px auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+
+    }
+    .menuBar.active ul{
+        opacity: 1;
+    }
+    .menuBar ul li a{
+        margin-bottom: 20px;
+       
+    }
 }
