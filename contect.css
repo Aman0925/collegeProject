@@ -17,11 +17,11 @@ form input {
     height: 25px;
     border-radius: 30px;
     text-align: center;
-    margin: 0 10px;
+    margin: 0 30px;
     margin-top: 5px;
 }
 form textarea{
-    margin: 0 10px ;
+    margin: 0 30px ;
     border-radius: 30px;
     margin-top: 5px;
 }
@@ -32,6 +32,7 @@ form button{
     height: 30px;
     border-radius: 20px;
     transition: 1s;
+    margin: 0 30px;
 }
 button:hover{
     background-color: white ;
