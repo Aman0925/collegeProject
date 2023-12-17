@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: red ;
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: yellow;
+}
+form input {
+    width: 200px;
+    height: 25px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 30px;
+    margin-top: 5px;
+}
+form textarea{
+    margin: 0 30px ;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+form button{
+    background-color: black;
+    color: white;
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    transition: 1s;
+    margin: 0 30px;
+}
+button:hover{
+    background-color: white ;
+    color: black;
+    
+}
+.box{
+    height:400px ;
+    width: 45%;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    transition: .3s;
+    border-radius: 20px;
+}
+.box i{
+    margin-left: 10px;
+    display: flex;
+    flex: wrap;
+}
