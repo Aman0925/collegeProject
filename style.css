@@ -213,37 +213,6 @@ section .circle{
     background: blue;
 }
 /* ------------------ to footer part-------------- */
-=======
-.content-box{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: rgb(199, 230, 199);
-    
-  }
-  
-  .box{
-      height:400px ;
-      width: 23%;
-      background-color: white;
-      padding: 20px 0px 15px;
-      margin-top: 15px;
-      border: 2px solid black;
-      
-  
-  }
-  .box1-img{
-      height: 300px;
-      background-size: cover;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-  }
-  .box p{
-      color:#007185;
-  }
->>>>>>> de64d358788cbe9911a37cd7c136fa5850af2b62
-=======
->>>>>>> 1324b3afc02a4f2aadbd52b22253d8f4c2686a21
 
 footer {
     height: 150px;
@@ -345,15 +314,5 @@ footer {
 
 
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-    .box{
-        flex-direction: column;
-    }
->>>>>>> de64d358788cbe9911a37cd7c136fa5850af2b62
-=======
-    
->>>>>>> 1324b3afc02a4f2aadbd52b22253d8f4c2686a21
 }
