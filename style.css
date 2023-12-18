@@ -79,6 +79,16 @@ header {
 
 
 }
+.hero-section{
+    background-image: url(hero.jfif);
+    height: 300px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
 
 .main .box {
     height: 300px;
@@ -90,6 +100,7 @@ header {
 
 
 }
+<<<<<<< HEAD
 .box img{
     width: 100%;
     height: 100%;
@@ -203,6 +214,35 @@ section .circle{
     background: blue;
 }
 /* ------------------ to footer part-------------- */
+=======
+.content-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(199, 230, 199);
+    
+  }
+  
+  .box{
+      height:400px ;
+      width: 23%;
+      background-color: white;
+      padding: 20px 0px 15px;
+      margin-top: 15px;
+      border: 2px solid black;
+      
+  
+  }
+  .box1-img{
+      height: 300px;
+      background-size: cover;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+  }
+  .box p{
+      color:#007185;
+  }
+>>>>>>> de64d358788cbe9911a37cd7c136fa5850af2b62
 
 footer {
     height: 150px;
@@ -336,5 +376,11 @@ footer {
 
 
     }
+<<<<<<< HEAD
 
+=======
+    .box{
+        flex-direction: column;
+    }
+>>>>>>> de64d358788cbe9911a37cd7c136fa5850af2b62
 }
